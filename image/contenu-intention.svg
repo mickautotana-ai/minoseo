@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#D7263D"/><stop offset="1" stop-color="#ff7584"/></linearGradient></defs>
+<rect width="1200" height="650" rx="36" fill="#0E0A0B"/>
+<text x="70" y="78" fill="#fff" font-family="Montserrat,Arial" font-size="30" font-weight="800">Une page performante commence par l'intention</text>
+<text x="70" y="116" fill="#d9cdd0" font-family="Montserrat,Arial" font-size="17">Plus la réponse correspond au besoin, plus la page a de chances d'être utile.</text>
+<line x1="120" y1="535" x2="1080" y2="535" stroke="#5b4549" stroke-width="2"/>
+<line x1="120" y1="180" x2="120" y2="535" stroke="#5b4549" stroke-width="2"/>
+<g fill="#b9aaad" font-family="Montserrat,Arial" font-size="15">
+<text x="105" y="540" text-anchor="end">faible</text><text x="105" y="185" text-anchor="end">forte</text>
+<text x="145" y="575">Question vague</text><text x="430" y="575">Besoin identifié</text><text x="735" y="575">Réponse ciblée</text><text x="990" y="575">Action</text></g>
+<polyline points="155,485 440,400 745,290 1040,205" fill="none" stroke="url(#g)" stroke-width="10" stroke-linecap="round"/>
+<g fill="#fff" stroke="#D7263D" stroke-width="5"><circle cx="155" cy="485" r="11"/><circle cx="440" cy="400" r="11"/><circle cx="745" cy="290" r="11"/><circle cx="1040" cy="205" r="11"/></g>
+<rect x="760" y="145" width="300" height="82" rx="18" fill="#fff"/>
+<text x="785" y="180" fill="#A81B2E" font-family="Montserrat,Arial" font-size="17" font-weight="800">Principe</text>
+<text x="785" y="207" fill="#1F1416" font-family="Montserrat,Arial" font-size="15">répondre avant de vouloir ranker</text>
+</svg>

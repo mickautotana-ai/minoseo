@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650">
+<rect width="1200" height="650" rx="36" fill="#fff"/>
+<text x="70" y="78" fill="#1F1416" font-family="Montserrat,Arial" font-size="30" font-weight="800">Le modèle d'une valeur éditoriale durable</text>
+<text x="70" y="116" fill="#5E4F52" font-family="Montserrat,Arial" font-size="17">Une bonne page combine utilité, clarté, preuve et capacité à faire avancer le lecteur.</text>
+<g font-family="Montserrat,Arial" font-weight="800" text-anchor="middle">
+<circle cx="300" cy="345" r="145" fill="#FDE8EA"/><text x="300" y="335" fill="#A81B2E" font-size="25">UTILITÉ</text><text x="300" y="368" fill="#5E4F52" font-size="15">répondre au besoin</text>
+<circle cx="600" cy="345" r="145" fill="#f4d8dd"/><text x="600" y="335" fill="#A81B2E" font-size="25">CLARTÉ</text><text x="600" y="368" fill="#5E4F52" font-size="15">faciliter la lecture</text>
+<circle cx="900" cy="345" r="145" fill="#edc6cd"/><text x="900" y="335" fill="#A81B2E" font-size="25">PREUVE</text><text x="900" y="368" fill="#5E4F52" font-size="15">rassurer et crédibiliser</text>
+</g>
+<rect x="420" y="520" width="360" height="58" rx="18" fill="#D7263D"/><text x="600" y="557" fill="#fff" font-family="Montserrat,Arial" font-size="18" font-weight="800" text-anchor="middle">= contenu réellement utile</text>
+</svg>

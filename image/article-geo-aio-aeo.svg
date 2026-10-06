@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+<title id="title">GEO, AIO et AEO : différences clés</title>
+<desc id="desc">Comparaison des trois approches selon leur objectif, leur terrain et leur résultat recherché.</desc>
+<rect width="1200" height="560" rx="28" fill="#f7f1f2"/>
+<text x="70" y="68" font-family="Montserrat,Arial,sans-serif" font-size="28" font-weight="800" fill="#0E0A0B">GEO vs AIO vs AEO</text>
+<text x="70" y="102" font-family="Montserrat,Arial,sans-serif" font-size="16" fill="#6f6265">Trois notions proches, mais des objectifs opérationnels différents.</text>
+<g font-family="Montserrat,Arial,sans-serif">
+<rect x="70" y="145" width="340" height="345" rx="24" fill="#fff" stroke="#eadcdf"/>
+<text x="100" y="195" font-size="25" font-weight="800" fill="#a81b2e">GEO</text>
+<text x="100" y="225" font-size="14" fill="#6f6265">Generative Engine Optimization</text>
+<line x1="100" y1="248" x2="380" y2="248" stroke="#eadcdf"/>
+<text x="100" y="280" font-size="14" font-weight="800" fill="#0E0A0B">Objectif</text>
+<text x="100" y="304" font-size="14" fill="#6f6265">Rendre une marque compréhensible</text><text x="100" y="325" font-size="14" fill="#6f6265">et crédible dans les réponses IA.</text>
+<text x="100" y="360" font-size="14" font-weight="800" fill="#0E0A0B">Travail clé</text>
+<text x="100" y="384" font-size="14" fill="#6f6265">Entités, cohérence, expertise,</text><text x="100" y="405" font-size="14" fill="#6f6265">contenus et preuves externes.</text>
+<text x="100" y="440" font-size="14" font-weight="800" fill="#0E0A0B">Résultat visé</text>
+<text x="100" y="464" font-size="14" fill="#6f6265">Être correctement associé aux</text><text x="100" y="485" font-size="14" fill="#6f6265">questions pertinentes.</text>
+
+<rect x="430" y="145" width="340" height="345" rx="24" fill="#fff" stroke="#eadcdf"/>
+<text x="460" y="195" font-size="25" font-weight="800" fill="#a81b2e">AIO</text>
+<text x="460" y="225" font-size="14" fill="#6f6265">AI Optimization</text>
+<line x1="460" y1="248" x2="740" y2="248" stroke="#eadcdf"/>
+<text x="460" y="280" font-size="14" font-weight="800" fill="#0E0A0B">Objectif</text>
+<text x="460" y="304" font-size="14" fill="#6f6265">Optimiser la présence d'une</text><text x="460" y="325" font-size="14" fill="#6f6265">information dans un environnement IA.</text>
+<text x="460" y="360" font-size="14" font-weight="800" fill="#0E0A0B">Travail clé</text>
+<text x="460" y="384" font-size="14" fill="#6f6265">Qualité des données, contenus,</text><text x="460" y="405" font-size="14" fill="#6f6265">signaux et usages de l'IA.</text>
+<text x="460" y="440" font-size="14" font-weight="800" fill="#0E0A0B">Résultat visé</text>
+<text x="460" y="464" font-size="14" fill="#6f6265">Améliorer l'exploitation de vos</text><text x="460" y="485" font-size="14" fill="#6f6265">informations par des systèmes IA.</text>
+
+<rect x="790" y="145" width="340" height="345" rx="24" fill="#0E0A0B"/>
+<text x="820" y="195" font-size="25" font-weight="800" fill="#fff">AEO</text>
+<text x="820" y="225" font-size="14" fill="#eadcdf">Answer Engine Optimization</text>
+<line x1="820" y1="248" x2="1100" y2="248" stroke="#3a2c30"/>
+<text x="820" y="280" font-size="14" font-weight="800" fill="#fff">Objectif</text>
+<text x="820" y="304" font-size="14" fill="#eadcdf">Structurer les réponses pour</text><text x="820" y="325" font-size="14" fill="#eadcdf">les moteurs qui répondent directement.</text>
+<text x="820" y="360" font-size="14" font-weight="800" fill="#fff">Travail clé</text>
+<text x="820" y="384" font-size="14" fill="#eadcdf">Questions, réponses, définitions,</text><text x="820" y="405" font-size="14" fill="#eadcdf">données et structure sémantique.</text>
+<text x="820" y="440" font-size="14" font-weight="800" fill="#fff">Résultat visé</text>
+<text x="820" y="464" font-size="14" fill="#eadcdf">Augmenter les chances d'obtenir</text><text x="820" y="485" font-size="14" fill="#eadcdf">une réponse claire et pertinente.</text>
+</g>
+</svg>

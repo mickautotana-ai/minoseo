@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520">
+<rect width="1200" height="520" rx="28" fill="#0e0a0b"/><text x="70" y="85" font-family="Montserrat,Arial" font-size="28" font-weight="800" fill="#fff">Progression naturelle d’une campagne</text>
+<text x="70" y="120" font-family="Montserrat,Arial" font-size="16" fill="#e8dadd">Une montée en puissance régulière vaut mieux qu’un pic artificiel.</text>
+<line x1="90" y1="420" x2="1110" y2="420" stroke="#6f5d61"/><line x1="90" y1="165" x2="90" y2="420" stroke="#6f5d61"/>
+<path d="M105 395 C250 385 270 355 390 350 S560 320 650 300 S820 255 900 215 S1010 190 1090 165" fill="none" stroke="#d7263d" stroke-width="8"/>
+<path d="M105 395 C300 395 350 395 470 395 S650 395 770 395 S920 395 1090 395" fill="none" stroke="#8f7c80" stroke-width="4" stroke-dasharray="10 10"/>
+<text x="120" y="450" font-family="Montserrat,Arial" font-size="14" fill="#e8dadd">Mois 1</text><text x="540" y="450" font-family="Montserrat,Arial" font-size="14" fill="#e8dadd">Mois 3</text><text x="1015" y="450" font-family="Montserrat,Arial" font-size="14" fill="#e8dadd">Mois 6</text>
+<text x="865" y="205" font-family="Montserrat,Arial" font-size="15" font-weight="700" fill="#fff">croissance maîtrisée</text><text x="865" y="230" font-family="Montserrat,Arial" font-size="14" fill="#e8dadd">rythme adapté au profil du site</text>
+</svg>

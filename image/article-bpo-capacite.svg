@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560">
+<rect width="1200" height="560" rx="28" fill="#f7f1f2"/>
+<text x="70" y="78" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#1F1416">Où se trouve le potentiel d’externalisation ?</text>
+<text x="70" y="112" font-family="Arial,sans-serif" font-size="16" fill="#5E4F52">Illustration indicative : plus une tâche est répétitive, plus son BPO peut être industrialisé.</text>
+<line x1="90" y1="465" x2="1130" y2="465" stroke="#D8C6C9" stroke-width="2"/>
+<g font-family="Arial,sans-serif" font-size="17" fill="#1F1416">
+<text x="115" y="505">Administration</text><text x="365" y="505">Saisie &amp; data</text><text x="625" y="505">Support client</text><text x="905" y="505">Back-office</text>
+</g>
+<g fill="#D7263D">
+<rect x="125" y="225" width="150" height="240" rx="12"/><rect x="385" y="165" width="150" height="300" rx="12"/><rect x="645" y="260" width="150" height="205" rx="12"/><rect x="905" y="135" width="150" height="330" rx="12"/>
+</g>
+<g font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#fff" text-anchor="middle">
+<text x="200" y="260">48</text><text x="460" y="200">60</text><text x="720" y="295">41</text><text x="980" y="170">66</text>
+</g>
+<g font-family="Arial,sans-serif" font-size="14" fill="#5E4F52" text-anchor="middle">
+<text x="200" y="285">indice illustratif</text><text x="460" y="225">indice illustratif</text><text x="720" y="320">indice illustratif</text><text x="980" y="195">indice illustratif</text>
+</g>
+</svg>

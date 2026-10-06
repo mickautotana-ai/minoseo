@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="t d">
+<title id="t">Matrice de stratégie de liens</title>
+<desc id="d">Schéma reliant objectifs business, pages prioritaires, contenus et opportunités de backlinks.</desc>
+<rect width="1200" height="520" rx="28" fill="#f7f1f2"/>
+<text x="65" y="66" font-family="Montserrat,Arial,sans-serif" font-size="28" font-weight="800" fill="#0E0A0B">Une stratégie de liens part des pages prioritaires</text>
+<text x="65" y="101" font-family="Montserrat,Arial,sans-serif" font-size="16" fill="#6f6265">Le lien n'est pas une fin : il doit renforcer une page utile à un objectif business.</text>
+<g font-family="Montserrat,Arial,sans-serif">
+<rect x="70" y="155" width="220" height="240" rx="22" fill="#fff" stroke="#eadcdf"/>
+<circle cx="180" cy="210" r="34" fill="#fde8ea"/><text x="180" y="220" text-anchor="middle" font-size="24" font-weight="800" fill="#a81b2e">01</text>
+<text x="180" y="270" text-anchor="middle" font-size="20" font-weight="800" fill="#0E0A0B">Business</text>
+<text x="180" y="301" text-anchor="middle" font-size="13" fill="#6f6265">Leads, ventes, marge,</text><text x="180" y="322" text-anchor="middle" font-size="13" fill="#6f6265">marchés et priorités.</text>
+<rect x="330" y="155" width="220" height="240" rx="22" fill="#fff" stroke="#eadcdf"/>
+<circle cx="440" cy="210" r="34" fill="#fde8ea"/><text x="440" y="220" text-anchor="middle" font-size="24" font-weight="800" fill="#a81b2e">02</text>
+<text x="440" y="270" text-anchor="middle" font-size="20" font-weight="800" fill="#0E0A0B">Pages</text>
+<text x="440" y="301" text-anchor="middle" font-size="13" fill="#6f6265">Services, catégories,</text><text x="440" y="322" text-anchor="middle" font-size="13" fill="#6f6265">guides et pages piliers.</text>
+<rect x="590" y="155" width="220" height="240" rx="22" fill="#fff" stroke="#eadcdf"/>
+<circle cx="700" cy="210" r="34" fill="#fde8ea"/><text x="700" y="220" text-anchor="middle" font-size="24" font-weight="800" fill="#a81b2e">03</text>
+<text x="700" y="270" text-anchor="middle" font-size="20" font-weight="800" fill="#0E0A0B">Contenus</text>
+<text x="700" y="301" text-anchor="middle" font-size="13" fill="#6f6265">Angles, expertises,</text><text x="700" y="322" text-anchor="middle" font-size="13" fill="#6f6265">preuves et sujets.</text>
+<rect x="850" y="155" width="280" height="240" rx="22" fill="#0E0A0B"/>
+<circle cx="990" cy="210" r="34" fill="#d7263d"/><text x="990" y="220" text-anchor="middle" font-size="24" font-weight="800" fill="#fff">04</text>
+<text x="990" y="270" text-anchor="middle" font-size="20" font-weight="800" fill="#fff">Opportunités</text>
+<text x="990" y="301" text-anchor="middle" font-size="13" fill="#eadcdf">Sites pertinents, médias,</text><text x="990" y="322" text-anchor="middle" font-size="13" fill="#eadcdf">partenaires et publications.</text>
+<path d="M290 275 H330 M550 275 H590 M810 275 H850" stroke="#d7263d" stroke-width="5" stroke-linecap="round"/>
+</g></svg>

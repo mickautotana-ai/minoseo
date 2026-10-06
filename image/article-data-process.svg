@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+<title id="title">Processus sécurisé de saisie de données</title>
+<desc id="desc">Schéma en cinq étapes : cadrage, saisie, contrôle, correction et livraison.</desc>
+<rect width="1200" height="520" rx="28" fill="#f7f1f2"/>
+<text x="65" y="68" font-family="Montserrat,Arial,sans-serif" font-size="28" font-weight="800" fill="#0E0A0B">Un processus de saisie pensé pour la qualité</text>
+<text x="65" y="102" font-family="Montserrat,Arial,sans-serif" font-size="16" fill="#6f6265">La qualité ne repose pas uniquement sur la saisie : elle se construit à chaque étape.</text>
+<g font-family="Montserrat,Arial,sans-serif">
+<line x1="145" y1="275" x2="1055" y2="275" stroke="#d7263d" stroke-width="5" opacity=".22"/>
+<g><circle cx="145" cy="275" r="54" fill="#fde8ea"/><text x="145" y="285" text-anchor="middle" font-size="24" font-weight="800" fill="#a81b2e">01</text><text x="145" y="365" text-anchor="middle" font-size="17" font-weight="800" fill="#0E0A0B">Cadrage</text><text x="145" y="390" text-anchor="middle" font-size="13" fill="#6f6265">Règles &amp; formats</text></g>
+<g><circle cx="372" cy="275" r="54" fill="#fde8ea"/><text x="372" y="285" text-anchor="middle" font-size="24" font-weight="800" fill="#a81b2e">02</text><text x="372" y="365" text-anchor="middle" font-size="17" font-weight="800" fill="#0E0A0B">Saisie</text><text x="372" y="390" text-anchor="middle" font-size="13" fill="#6f6265">Exécution contrôlée</text></g>
+<g><circle cx="600" cy="275" r="54" fill="#0E0A0B"/><text x="600" y="285" text-anchor="middle" font-size="24" font-weight="800" fill="#fff">03</text><text x="600" y="365" text-anchor="middle" font-size="17" font-weight="800" fill="#0E0A0B">Contrôle</text><text x="600" y="390" text-anchor="middle" font-size="13" fill="#6f6265">Échantillonnage &amp; QA</text></g>
+<g><circle cx="828" cy="275" r="54" fill="#fde8ea"/><text x="828" y="285" text-anchor="middle" font-size="24" font-weight="800" fill="#a81b2e">04</text><text x="828" y="365" text-anchor="middle" font-size="17" font-weight="800" fill="#0E0A0B">Correction</text><text x="828" y="390" text-anchor="middle" font-size="13" fill="#6f6265">Boucle d'amélioration</text></g>
+<g><circle cx="1055" cy="275" r="54" fill="#d7263d"/><text x="1055" y="285" text-anchor="middle" font-size="24" font-weight="800" fill="#fff">05</text><text x="1055" y="365" text-anchor="middle" font-size="17" font-weight="800" fill="#0E0A0B">Livraison</text><text x="1055" y="390" text-anchor="middle" font-size="13" fill="#6f6265">Données prêtes à exploiter</text></g>
+</g></svg>

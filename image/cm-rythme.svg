@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560">
+<rect width="1200" height="560" rx="28" fill="#f7f1f2"/>
+<g font-family="Arial,sans-serif">
+<text x="70" y="68" font-size="30" font-weight="700" fill="#201619">Un rythme éditorial réaliste</text>
+<text x="70" y="102" font-size="17" fill="#6e5b60">La régularité devient plus facile quand les formats sont planifiés par niveau d'effort.</text>
+<line x1="110" y1="450" x2="1110" y2="450" stroke="#d7c7ca" stroke-width="3"/>
+<line x1="110" y1="150" x2="110" y2="450" stroke="#d7c7ca" stroke-width="3"/>
+<g fill="#d7263d">
+<rect x="180" y="275" width="125" height="175" rx="12"/><rect x="380" y="225" width="125" height="225" rx="12"/>
+<rect x="580" y="185" width="125" height="265" rx="12"/><rect x="780" y="145" width="125" height="305" rx="12"/>
+</g>
+<g font-size="18" font-weight="700" fill="#201619" text-anchor="middle">
+<text x="242" y="480">1x / semaine</text><text x="442" y="480">2x / semaine</text><text x="642" y="480">3x / semaine</text><text x="842" y="480">4x / semaine</text>
+</g>
+<g font-size="15" fill="#6e5b60" text-anchor="middle">
+<text x="242" y="258">Base</text><text x="442" y="208">Confort</text><text x="642" y="168">Visibilité</text><text x="842" y="128">Intensif</text>
+</g>
+<path d="M930 350 C1010 310 1020 240 1080 210" fill="none" stroke="#a81b2e" stroke-width="6" stroke-linecap="round"/>
+<circle cx="1080" cy="210" r="9" fill="#a81b2e"/>
+<text x="1060" y="190" font-size="16" fill="#a81b2e" text-anchor="end" font-weight="700">À adapter aux ressources</text>
+</g></svg>
