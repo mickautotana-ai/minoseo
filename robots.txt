@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://minoseo.onrender.com/sitemap.xml
