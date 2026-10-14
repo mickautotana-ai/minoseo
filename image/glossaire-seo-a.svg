@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="t d">
+<title id="t">Glossaire SEO et IA lettre A</title><desc id="d">Illustration reliant autorité, agents IA, AEO et ancres de liens</desc>
+<rect width="1200" height="560" rx="30" fill="#0E0A0B"/>
+<circle cx="600" cy="280" r="118" fill="#D7263D"/>
+<text x="600" y="318" text-anchor="middle" font-family="Montserrat,Arial,sans-serif" font-size="120" font-weight="800" fill="white">A</text>
+<g font-family="Montserrat,Arial,sans-serif" font-weight="700" text-anchor="middle" fill="#fff">
+<rect x="90" y="85" width="270" height="95" rx="20" fill="#21191B"/><text x="225" y="125" font-size="22">AUTORITÉ</text><text x="225" y="153" font-size="14" fill="#D8C6C9">domaine • confiance • liens</text>
+<rect x="840" y="85" width="270" height="95" rx="20" fill="#21191B"/><text x="975" y="125" font-size="22">AGENTS IA</text><text x="975" y="153" font-size="14" fill="#D8C6C9">Agentic SEO • AIO</text>
+<rect x="90" y="380" width="270" height="95" rx="20" fill="#21191B"/><text x="225" y="420" font-size="22">AEO</text><text x="225" y="448" font-size="14" fill="#D8C6C9">réponses • structure • clarté</text>
+<rect x="840" y="380" width="270" height="95" rx="20" fill="#21191B"/><text x="975" y="420" font-size="22">ANCRES &amp; ATTRIBUTS</text><text x="975" y="448" font-size="14" fill="#D8C6C9">alt • nofollow • liens</text>
+</g>
+<g stroke="#D7263D" stroke-width="5" opacity=".7"><path d="M360 135 L500 230"/><path d="M840 135 L700 230"/><path d="M360 427 L500 330"/><path d="M840 427 L700 330"/></g>
+</svg>
