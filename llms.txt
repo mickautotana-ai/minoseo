@@ -1,0 +1,14 @@
+# MinoSeo
+> Agence SEO/GEO, netlinking, community management, saisie de données et BPO.
+
+## Services
+- [Services](https://minoseo.onrender.com/services-seogeo.html): SEO, GEO, netlinking, community management, saisie, BPO
+
+## Ressources
+- [Définitions SEO/GEO](https://minoseo.onrender.com/definitions-seo.html): glossaire
+- [SEO et GEO : être visible sur Google et dans les réponses IA](https://minoseo.onrender.com/article-seo-geo.html)
+- [Netlinking : la qualité avant la quantité](https://minoseo.onrender.com/article-netlinking.html)
+- [Blog](https://minoseo.onrender.com/blog.html)
+
+## Contact
+- [Contact](https://minoseo.onrender.com/contact.html)
