@@ -55,7 +55,7 @@
     <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
     <ul class="menu">
       <li><a href="a-propos.html">À propos</a></li>
-      <li><a href="services-seogeo.html">Services</a></li>
+      <li class="services-dropdown"><a href="services-seogeo.html" class="services-trigger">Services <span aria-hidden="true">▾</span></a><ul class="services-submenu"><li><a href="offre-seo-geo.html">SEO &amp; GEO</a></li><li><a href="offre-netlinking.html">Netlinking</a></li><li><a href="offre-community-management.html">Community Management</a></li><li><a href="offre-saisie-de-donnees.html">Saisie de données</a></li><li><a href="offre-bpo.html">BPO</a></li></ul></li>
       <li><a href="blog.html">Blog</a></li>
       <li><a href="contact.html">Contact</a></li>
       <li class="definitions-menu-item"><a class="definitions-link" href="https://minoseo.onrender.com/definitions-seo.html">DÉFINITIONS SEO/GEO</a></li>
@@ -184,7 +184,7 @@
 </section>
 </main>
 
-<footer class="site"><div class="wrap"><div class="foot"><div><img src="image/logo.svg" alt="MinoSeo"><p>Agence SEO/GEO, netlinking, community management, saisie et BPO. Des solutions digitales et opérationnelles pour développer votre activité.</p></div><div><h4>Société</h4><ul><li><a href="a-propos.html">À propos</a></li><li><a href="blog.html">Blog</a></li><li><a href="contact.html">Contact</a></li><li><a href="mentions-legales.html">Mentions légales</a></li></ul></div><div><h4>Services</h4><ul><li><a href="services-seogeo.html#partie1">SEO et GEO</a></li><li><a href="services-seogeo.html#partie2">Netlinking</a></li><li><a href="services-seogeo.html#partie3">Community management</a></li><li><a href="services-seogeo.html#partie4">Saisie</a> et <a href="services-seogeo.html#partie5">BPO</a></li></ul></div></div><div class="copy">© 2026 MinoSeo. Tous droits réservés. · <a href="mentions-legales.html">Mentions légales</a></div></div></footer>
+<footer class="site"><div class="wrap"><div class="foot"><div><img src="image/logo.svg" alt="MinoSeo"><p>Agence SEO/GEO, netlinking, community management, saisie et BPO. Des solutions digitales et opérationnelles pour développer votre activité.</p></div><div><h4>Société</h4><ul><li><a href="a-propos.html">À propos</a></li><li><a href="blog.html">Blog</a></li><li><a href="contact.html">Contact</a></li><li><a href="mentions-legales.html">Mentions légales</a></li></ul></div><div><h4>Services</h4><ul><li><a href="offre-seo-geo.html">SEO &amp; GEO</a></li><li><a href="offre-netlinking.html">Netlinking</a></li><li><a href="offre-community-management.html">Community management</a></li><li><a href="offre-saisie-de-donnees.html">Saisie de données</a></li><li><a href="offre-bpo.html">BPO</a></li></ul></div></div><div class="copy">© 2026 MinoSeo. Tous droits réservés. · <a href="mentions-legales.html">Mentions légales</a></div></div></footer>
 <script>
 const burger=document.querySelector('.burger'), menu=document.querySelector('.menu');
 if(burger&&menu){burger.addEventListener('click',()=>{const open=burger.getAttribute('aria-expanded')==='true';burger.setAttribute('aria-expanded',String(!open));menu.classList.toggle('open',!open);});}

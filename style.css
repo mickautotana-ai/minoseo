@@ -478,3 +478,103 @@ footer.site{background:var(--ink);color:#E9D9DB;padding:56px 0 28px}
 @media(max-width:900px){.offer-visual-animated{min-height:350px}.hero-core{width:min(66%,320px)}}
 @media(max-width:560px){.offer-visual-animated{min-height:315px;padding:18px}.hero-core{width:72%;padding:22px}.hero-orbit-a{width:270px;height:270px}.hero-orbit-b{width:215px;height:215px}.hero-float-card{min-width:122px;padding:9px 10px}.hero-card-a{left:7px;top:46px}.hero-card-b{right:7px;bottom:35px}.hero-card-icon{width:26px;height:26px}.hero-signal{right:20px;top:18px}}
 @media(prefers-reduced-motion:reduce){.hero-core,.hero-orbit,.hero-float-card,.hero-card-dot,.hero-signal i{animation:none}.reveal-card,.reveal-stagger article,.offer-photo,.offer-table-wrap{opacity:1;transform:none;transition:none}.offer-block,.offer-block-icon,.offer-method article,.offer-method article b{transition:none}}
+
+/* Offre BPO — bloc conseils en une colonne */
+.offer-advice-single{display:flex;flex-direction:column;gap:28px}
+.offer-advice-single>div:first-child{max-width:900px}
+.offer-advice-image{width:100%;max-width:1100px;margin:0 auto;overflow:hidden}
+.offer-advice-image img{display:block;width:100%;height:auto;max-height:none;object-fit:contain}
+
+/* Offre BPO — sections pleine largeur */
+body:has(link[rel="canonical"][href$="offre-bpo.html"]) .offer-intro,
+body:has(link[rel="canonical"][href$="offre-bpo.html"]) .offer-advice-single > div:first-child {
+  max-width: none;
+  width: 100%;
+}
+body:has(link[rel="canonical"][href$="offre-bpo.html"]) .offer-advice-image {
+  max-width: none;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* Offres Community Management, Netlinking et Saisie de données — pleine largeur */
+body:has(link[rel="canonical"][href$="offre-community-management.html"]) .offer-intro,
+body:has(link[rel="canonical"][href$="offre-netlinking.html"]) .offer-intro,
+body:has(link[rel="canonical"][href$="offre-saisie-de-donnees.html"]) .offer-intro,
+body:has(link[rel="canonical"][href$="offre-community-management.html"]) .offer-advice-single > div:first-child,
+body:has(link[rel="canonical"][href$="offre-netlinking.html"]) .offer-advice-single > div:first-child,
+body:has(link[rel="canonical"][href$="offre-saisie-de-donnees.html"]) .offer-advice-single > div:first-child {
+  max-width:none;
+  width:100%;
+}
+body:has(link[rel="canonical"][href$="offre-community-management.html"]) .offer-advice-image,
+body:has(link[rel="canonical"][href$="offre-netlinking.html"]) .offer-advice-image,
+body:has(link[rel="canonical"][href$="offre-saisie-de-donnees.html"]) .offer-advice-image {
+  max-width:none;
+  width:100%;
+  margin-left:0;
+  margin-right:0;
+}
+
+
+/* Alignement des blocs éditoriaux des landing pages */
+.offer-intro h2,
+.alt h2,
+.offer-advice-single h2,
+.offer-advice-seo h2 {
+  text-align: center;
+}
+
+.offer-intro p,
+.alt p,
+.offer-advice-single p,
+.offer-advice-seo p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* Maillage interne et liens éditoriaux des landing pages */
+.brand-link,.keyword-link,.offer-crosslinks a{color:inherit;text-decoration:none;font-weight:700}
+.keyword-link{color:var(--red-dark);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+.offer-crosslinks{margin-top:18px!important;font-size:.92rem!important;color:var(--muted)}
+.offer-crosslinks a{color:var(--red-dark);font-weight:700}
+.offer-crosslinks a:hover,.keyword-link:hover,.brand-link:hover{text-decoration:underline}
+
+
+/* CTA de maillage interne des landing pages */
+.offer-crosslinks {
+  margin-top: 1.8rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgba(255,255,255,.18);
+  text-align: center;
+  line-height: 1.9;
+}
+.offer-crosslinks-title {
+  display: block;
+  margin-bottom: .55rem;
+  font-size: .82rem;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: #fff;
+}
+.offer-crosslinks a {
+  display: inline-block;
+  margin: .15rem .2rem;
+  padding: .45rem .8rem;
+  border: 1px solid rgba(255,255,255,.35);
+  border-radius: 999px;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform .2s ease, background-color .2s ease, border-color .2s ease;
+}
+.offer-crosslinks a:hover {
+  transform: translateY(-2px);
+  background: #e30613;
+  border-color: #e30613;
+}
+@media (max-width: 640px) {
+  .offer-crosslinks a { display:block; margin:.4rem auto; max-width:280px; }
+}
