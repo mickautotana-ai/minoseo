@@ -54,6 +54,19 @@
   font-weight:800 !important;
 }
 </style>
+
+<style id="blog-white-cta-red-text-fix">
+/* Sur les deux CTA à fond blanc, conserver le libellé rouge y compris sur les éléments strong et au survol. */
+.featured > a.btn, .featured > a.btn strong, .featured > a.btn:hover, .featured > a.btn:hover strong,
+.newsletter-band a.btn, .newsletter-band a.btn strong, .newsletter-band a.btn:hover, .newsletter-band a.btn:hover strong,
+.featured > a.btn:focus-visible, .featured > a.btn:focus-visible strong,
+.newsletter-band a.btn:focus-visible, .newsletter-band a.btn:focus-visible strong {
+  color: #D7263D !important;
+}
+</style>
+
+<style id="blog-bottom-need-cta-red-all-states"> /* CTA inférieur « Parler de votre besoin » : texte rouge au repos, au survol et au focus clavier. */ .blog-page .featured > a.btn.cta-animated, .blog-page .featured > a.btn.cta-animated strong, .blog-page .featured > a.btn.cta-animated:hover, .blog-page .featured > a.btn.cta-animated:hover strong, .blog-page .featured > a.btn.cta-animated:focus-visible, .blog-page .featured > a.btn.cta-animated:focus-visible strong { color: #D7263D !important; } </style>
+
 </head>
 <body class="blog-page">
 <header>
@@ -66,7 +79,7 @@
 <li><a aria-current="page" href="blog.html">Blog</a></li>
 <li><a href="contact.html">Contact</a></li>
 <li class="definitions-menu-item"><a class="definitions-link" href="https://minoseo.onrender.com/definitions-seo.html">DÉFINITIONS SEO/GEO</a></li>
-<li><a class="btn cta-animated" href="contact.html"><strong>Parler de votre besoin</strong></a></li>
+<li><a class="btn cta-animated definitions-cta-style" href="contact.html"><strong>Parler de votre besoin</strong></a></li>
 </ul>
 </div>
 </header>

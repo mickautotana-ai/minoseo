@@ -600,15 +600,131 @@ a.btn.cta-animated:focus-visible { outline: 2px solid var(--red); outline-offset
 }
 
 
-/* Le libellé du CTA « Audit gratuit » reste blanc au survol. */
-a.btn.cta-animated.audit-gratuit:hover,
-a.btn.cta-animated.audit-gratuit:focus-visible { color: #fff; }
-a.btn.cta-animated.audit-gratuit:hover strong,
-a.btn.cta-animated.audit-gratuit:focus-visible strong { color: #fff; }
+/* CTA bas de page blog : bouton blanc avec texte rouge */
+.blog-page .newsletter-band .btn, .newsletter-band .btn {
+  background: #fff;
+  color: var(--red);
+  border-color: #fff;
+}
+.blog-page .newsletter-band .btn:hover, .newsletter-band .btn:hover {
+  background: var(--red-soft);
+  color: var(--red);
+  border-color: var(--red-soft);
+}
 
 
-/* Le libellé du CTA « Échanger avec un expert » reste blanc au survol. */
-a.btn.cta-animated.echanger-expert:hover,
-a.btn.cta-animated.echanger-expert:focus-visible { color: #fff !important; }
-a.btn.cta-animated.echanger-expert:hover strong,
-a.btn.cta-animated.echanger-expert:focus-visible strong { color: #fff !important; }
+/* CTA principal de blog : même finition premium que « DÉFINITIONS SEO/GEO » */
+a.btn.definitions-cta-style {
+  display: inline-flex; align-items: center; justify-content: center;
+  padding: 10px 13px; border: 2px solid var(--red-soft); border-radius: 9px;
+  background: linear-gradient(135deg, var(--red) 0%, var(--red-dark) 100%);
+  color: #fff !important; font-weight: 800; text-decoration: none; text-align: center;
+  box-shadow: 0 4px 16px rgba(215, 38, 61, .3);
+  transition: transform .2s ease, box-shadow .2s ease, background .2s ease;
+}
+a.btn.definitions-cta-style strong { color: #fff !important; }
+a.btn.definitions-cta-style:hover, a.btn.definitions-cta-style:focus-visible {
+  background: linear-gradient(135deg, var(--red-dark) 0%, #7f1424 100%);
+  color: #fff !important; transform: translateY(-2px);
+  box-shadow: 0 7px 22px rgba(215, 38, 61, .42);
+  outline: 2px solid var(--red); outline-offset: 2px; filter: none;
+}
+a.btn.definitions-cta-style:hover strong, a.btn.definitions-cta-style:focus-visible strong { color: #fff !important; }
+/* Les deux CTA blancs du blog gardent leur libellé rouge, y compris au survol. */
+.blog-page .newsletter-band .btn, .newsletter-band .btn { color: var(--red) !important; }
+.blog-page .newsletter-band .btn strong, .newsletter-band .btn strong { color: var(--red) !important; }
+.blog-page .newsletter-band .btn:hover, .newsletter-band .btn:hover,
+.blog-page .newsletter-band .btn:focus-visible, .newsletter-band .btn:focus-visible { color: var(--red) !important; }
+.blog-page .newsletter-band .btn:hover strong, .newsletter-band .btn:hover strong,
+.blog-page .newsletter-band .btn:focus-visible strong, .newsletter-band .btn:focus-visible strong { color: var(--red) !important; }
+@media (prefers-reduced-motion: reduce) {
+  a.btn.definitions-cta-style { transition: none; }
+  a.btn.definitions-cta-style:hover, a.btn.definitions-cta-style:focus-visible { transform: none; }
+}
+
+/* CTA « Parler de votre besoin » dans le bloc blanc inférieur du blog : libellé rouge */
+.blog-page .featured > a.btn.cta-animated,
+.blog-page .featured > a.btn.cta-animated strong,
+.blog-page .featured > a.btn.cta-animated:hover,
+.blog-page .featured > a.btn.cta-animated:hover strong,
+.blog-page .featured > a.btn.cta-animated:focus-visible,
+.blog-page .featured > a.btn.cta-animated:focus-visible strong {
+  color: var(--red) !important;
+}
+
+
+/* CTA « Audit gratuit » du menu : fond rouge, texte blanc et animation discrète */
+header .menu a.btn.header-audit-cta,
+header .menu a.btn.header-audit-cta:visited,
+header .menu a.btn.header-audit-cta:hover,
+header .menu a.btn.header-audit-cta:focus,
+header .menu a.btn.header-audit-cta:focus-visible,
+header .menu a.btn.header-audit-cta strong {
+  color: #fff !important;
+}
+header .menu a.btn.header-audit-cta {
+  background: var(--red) !important;
+  border-color: var(--red) !important;
+  animation: audit-cta-pulse 3.2s ease-in-out infinite;
+}
+header .menu a.btn.header-audit-cta:hover,
+header .menu a.btn.header-audit-cta:focus,
+header .menu a.btn.header-audit-cta:focus-visible {
+  background: var(--red-dark) !important;
+  border-color: var(--red-dark) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 7px 22px rgba(215, 38, 61, .35);
+  filter: none;
+}
+header .menu a.btn.header-audit-cta:focus-visible {
+  outline: 2px solid var(--red);
+  outline-offset: 3px;
+}
+@keyframes audit-cta-pulse {
+  0%, 100% { box-shadow: 0 4px 14px rgba(215, 38, 61, .18); }
+  50% { box-shadow: 0 5px 18px rgba(215, 38, 61, .32); }
+}
+@media (prefers-reduced-motion: reduce) {
+  header .menu a.btn.header-audit-cta { animation: none; transition: none; }
+  header .menu a.btn.header-audit-cta:hover,
+  header .menu a.btn.header-audit-cta:focus-visible { transform: none; }
+}
+
+
+/* CTA « Parler de votre besoin » : rouge premium, texte blanc et animation discrète */
+.contact-need-cta,
+.contact-need-cta:visited,
+.contact-need-cta:hover,
+.contact-need-cta:focus,
+.contact-need-cta:focus-visible,
+.contact-need-cta strong {
+  color: #fff !important;
+}
+a.btn.contact-need-cta {
+  background: var(--red) !important;
+  border-color: var(--red) !important;
+  animation: contact-need-cta-pulse 3.2s ease-in-out infinite;
+}
+a.btn.contact-need-cta:hover,
+a.btn.contact-need-cta:focus,
+a.btn.contact-need-cta:focus-visible {
+  color: #fff !important;
+  background: var(--red-dark) !important;
+  border-color: var(--red-dark) !important;
+}
+a.btn.contact-need-cta:hover strong,
+a.btn.contact-need-cta:focus strong,
+a.btn.contact-need-cta:focus-visible strong { color: #fff !important; }
+a.btn.contact-need-cta:focus-visible {
+  outline: 2px solid var(--red);
+  outline-offset: 3px;
+}
+@keyframes contact-need-cta-pulse {
+  0%, 100% { box-shadow: 0 4px 14px rgba(215, 38, 61, .18); }
+  50% { box-shadow: 0 5px 18px rgba(215, 38, 61, .32); }
+}
+@media (prefers-reduced-motion: reduce) {
+  a.btn.contact-need-cta { animation: none; transition: none; }
+  a.btn.contact-need-cta:hover,
+  a.btn.contact-need-cta:focus-visible { transform: none; }
+}
