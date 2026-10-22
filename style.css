@@ -578,3 +578,37 @@ body:has(link[rel="canonical"][href$="offre-saisie-de-donnees.html"]) .offer-adv
 @media (max-width: 640px) {
   .offer-crosslinks a { display:block; margin:.4rem auto; max-width:280px; }
 }
+
+
+/* Animation CTA inspirée du bouton premium « DÉFINITIONS SEO/GEO » */
+a.btn.cta-animated {
+  position: relative;
+  transition: transform .2s ease, box-shadow .2s ease, background .2s ease, filter .2s ease;
+  box-shadow: 0 4px 16px rgba(215, 38, 61, .24);
+  will-change: transform;
+}
+a.btn.cta-animated:hover,
+a.btn.cta-animated:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 7px 22px rgba(215, 38, 61, .42);
+  filter: brightness(.94);
+}
+a.btn.cta-animated:focus-visible { outline: 2px solid var(--red); outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) {
+  a.btn.cta-animated { transition: none; }
+  a.btn.cta-animated:hover, a.btn.cta-animated:focus-visible { transform: none; }
+}
+
+
+/* Le libellé du CTA « Audit gratuit » reste blanc au survol. */
+a.btn.cta-animated.audit-gratuit:hover,
+a.btn.cta-animated.audit-gratuit:focus-visible { color: #fff; }
+a.btn.cta-animated.audit-gratuit:hover strong,
+a.btn.cta-animated.audit-gratuit:focus-visible strong { color: #fff; }
+
+
+/* Le libellé du CTA « Échanger avec un expert » reste blanc au survol. */
+a.btn.cta-animated.echanger-expert:hover,
+a.btn.cta-animated.echanger-expert:focus-visible { color: #fff !important; }
+a.btn.cta-animated.echanger-expert:hover strong,
+a.btn.cta-animated.echanger-expert:focus-visible strong { color: #fff !important; }
