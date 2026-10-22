@@ -17,7 +17,6 @@
 	text-decoration: underline;
 }
 </style>
-
 <style id="cta-dark-text-fix">
 /* Texte lisible dans les blocs CTA à fond rouge ou noir */
 .cta-box, .final-cta, .article-cta, .featured, .newsletter-band { color:#fff !important; }
@@ -27,6 +26,19 @@
 .featured h1,.featured h2,.featured h3,.featured h4,.featured p,.featured strong,.featured li,
 .newsletter-band h1,.newsletter-band h2,.newsletter-band h3,.newsletter-band h4,.newsletter-band p,.newsletter-band strong,.newsletter-band li { color:#fff !important; }
 .cta-box a:not(.btn), .final-cta a:not(.btn), .article-cta a:not(.btn), .featured a:not(.btn), .newsletter-band a:not(.btn) { color:#fff !important; }
+</style>
+
+<style id="cta-white-anchor-fix">
+/* CTA à fond blanc : texte des ancres en rouge et en gras pour une visibilité maximale */
+.final-cta .btn,
+.final-cta .btn strong,
+.cta-box .btn[style*="background: #fff"],
+.cta-box .btn[style*="background:#fff"],
+.cta-box .btn[style*="background: white"],
+.cta-box .btn[style*="background:white"] {
+  color:#D7263D !important;
+  font-weight:800 !important;
+}
 </style>
 </head>
 <body class="services-page">
@@ -40,7 +52,7 @@
 <li><a href="blog.html">Blog</a></li>
 <li><a href="contact.html">Contact</a></li>
 <li class="definitions-menu-item"><a class="definitions-link" href="https://minoseo.onrender.com/definitions-seo.html">DÉFINITIONS SEO/GEO</a></li>
-<li><a class="btn" href="contact.html">Audit gratuit</a></li>
+<li><a class="btn" href="contact.html"><strong>Audit gratuit</strong></a></li>
 </ul>
 </div>
 </header>
@@ -60,8 +72,8 @@
 <span>SEO &amp; GEO</span><span>Netlinking</span><span>Community management</span><span>Saisie de données</span><span>BPO</span>
 </div>
 <div class="cta-row">
-<a class="btn" href="contact.html">Parler de votre besoin</a>
-<a class="btn ghost" href="services-seogeo.html">Voir les solutions</a>
+<a class="btn" href="contact.html"><strong>Parler de votre besoin</strong></a>
+<a class="btn ghost" href="services-seogeo.html"><strong>Voir les solutions</strong></a>
 </div>
 </div>
 </div>
@@ -138,7 +150,7 @@
 <div class="wrap final-cta">
 <h2>Vous avez un problème à résoudre ? Parlons-en.</h2>
 <p>Décrivez-nous votre besoin. Nous vous aiderons à identifier la solution la plus adaptée, sans vous imposer une prestation inutile.</p>
-<a class="btn" href="contact.html">Échanger avec MinoSeo</a>
+<a class="btn" href="contact.html"><strong>Échanger avec MinoSeo</strong></a>
 </div>
 </section>
 </main>

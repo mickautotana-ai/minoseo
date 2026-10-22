@@ -48,7 +48,6 @@
 @media(max-width:900px){.article-layout{grid-template-columns:1fr}.article-sidebar{position:static;order:-1}}
 @media(max-width:620px){.article-hero{padding:58px 0}.article-cta{padding:28px}.article-table{font-size:.78rem}.article-table th,.article-table td{padding:10px}}
 </style>
-
 <style id="cta-dark-text-fix">
 /* Texte lisible dans les blocs CTA à fond rouge ou noir */
 .cta-box, .final-cta, .article-cta, .featured, .newsletter-band { color:#fff !important; }
@@ -58,6 +57,19 @@
 .featured h1,.featured h2,.featured h3,.featured h4,.featured p,.featured strong,.featured li,
 .newsletter-band h1,.newsletter-band h2,.newsletter-band h3,.newsletter-band h4,.newsletter-band p,.newsletter-band strong,.newsletter-band li { color:#fff !important; }
 .cta-box a:not(.btn), .final-cta a:not(.btn), .article-cta a:not(.btn), .featured a:not(.btn), .newsletter-band a:not(.btn) { color:#fff !important; }
+</style>
+
+<style id="cta-white-anchor-fix">
+/* CTA à fond blanc : texte des ancres en rouge et en gras pour une visibilité maximale */
+.final-cta .btn,
+.final-cta .btn strong,
+.cta-box .btn[style*="background: #fff"],
+.cta-box .btn[style*="background:#fff"],
+.cta-box .btn[style*="background: white"],
+.cta-box .btn[style*="background:white"] {
+  color:#D7263D !important;
+  font-weight:800 !important;
+}
 </style>
 </head>
 <body>
@@ -71,7 +83,7 @@
 <li><a href="blog.html">Blog</a></li>
 <li><a href="contact.html">Contact</a></li>
 <li class="definitions-menu-item"><a class="definitions-link" href="https://minoseo.onrender.com/definitions-seo.html">DÉFINITIONS SEO/GEO</a></li>
-<li><a class="btn" href="contact.html">Audit gratuit</a></li>
+<li><a class="btn" href="contact.html"><strong>Audit gratuit</strong></a></li>
 </ul>
 </div>
 </header>
@@ -83,8 +95,8 @@
 <p class="article-lead">Intentions de recherche, structure, clarté et valeur ajoutée : les réflexes à adopter avant de publier une page. L'objectif n'est pas d'écrire davantage, mais de répondre mieux.</p>
 <div class="article-meta"><span>Guide expert</span><span>•</span><span>Lecture : 8 min</span><span>•</span><span>Mis à jour en 2026</span></div>
 <div class="cta-row">
-<a class="btn" href="contact.html">Parler de votre contenu</a>
-<a class="btn ghost" href="services-seogeo.html">Découvrir nos services</a>
+<a class="btn" href="contact.html"><strong>Parler de votre contenu</strong></a>
+<a class="btn ghost" href="services-seogeo.html"><strong>Découvrir nos services</strong></a>
 </div>
 </div>
 </section>
@@ -153,7 +165,7 @@
 <h2>Vos contenus attirent-ils les bons prospects ?</h2>
 <p><strong><a href="https://minoseo.onrender.com/">MinoSeo</a></strong> peut analyser vos pages existantes, identifier les intentions insuffisamment couvertes et vous aider à construire une stratégie éditoriale <strong><a href="offre-seo-geo.html">SEO</a></strong>/<strong><a href="offre-seo-geo.html">GEO</a></strong> adaptée à vos objectifs.</p>
 <div class="cta-row">
-<a class="btn" href="mailto:minoseogeo@gmail.com?subject=Diagnostic%20contenu%20SEO">Demander un diagnostic</a>
+<a class="btn" href="mailto:minoseogeo@gmail.com?subject=Diagnostic%20contenu%20SEO"><strong>Demander un diagnostic</strong></a>
 </div>
 </div>
 <div class="article-tags"><span>SEO</span><span>Content marketing</span><span>Intentions de recherche</span><span>Rédaction</span><span>GEO</span><span>Contenu web</span></div>
@@ -170,7 +182,7 @@
 <li><a href="#checklist">La checklist</a></li>
 <li><a href="#conclusion">Conclusion</a></li>
 </ol>
-<a class="btn" href="contact.html" style="width:100%;text-align:center;margin-top:18px">Parler à MinoSeo</a>
+<a class="btn" href="contact.html" style="width:100%;text-align:center;margin-top:18px"><strong>Parler à MinoSeo</strong></a>
 </aside>
 </div>
 </section>

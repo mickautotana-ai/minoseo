@@ -14,7 +14,6 @@
 <link href="style.css" rel="stylesheet"/>
 <style>
 .email-contact-box{text-align:center;padding:34px 20px 12px}.email-icon{width:64px;height:64px;margin:0 auto 18px;border-radius:20px;display:grid;place-items:center;background:#fbe8ea;color:#e21f2f;font-size:30px;font-weight:800}.email-label{margin:0 0 8px;text-transform:uppercase;letter-spacing:.12em;font-size:12px;font-weight:800;color:#707784}.email-address{display:inline-block;font-size:clamp(22px,3vw,31px);font-weight:800;color:#151a22;text-decoration:none;margin-bottom:18px}.email-address:hover{color:#e21f2f}.email-copy{max-width:560px;margin:0 auto 26px;line-height:1.75;color:#626a76}</style>
-
 <style id="cta-dark-text-fix">
 /* Texte lisible dans les blocs CTA à fond rouge ou noir */
 .cta-box, .final-cta, .article-cta, .featured, .newsletter-band { color:#fff !important; }
@@ -24,6 +23,19 @@
 .featured h1,.featured h2,.featured h3,.featured h4,.featured p,.featured strong,.featured li,
 .newsletter-band h1,.newsletter-band h2,.newsletter-band h3,.newsletter-band h4,.newsletter-band p,.newsletter-band strong,.newsletter-band li { color:#fff !important; }
 .cta-box a:not(.btn), .final-cta a:not(.btn), .article-cta a:not(.btn), .featured a:not(.btn), .newsletter-band a:not(.btn) { color:#fff !important; }
+</style>
+
+<style id="cta-white-anchor-fix">
+/* CTA à fond blanc : texte des ancres en rouge et en gras pour une visibilité maximale */
+.final-cta .btn,
+.final-cta .btn strong,
+.cta-box .btn[style*="background: #fff"],
+.cta-box .btn[style*="background:#fff"],
+.cta-box .btn[style*="background: white"],
+.cta-box .btn[style*="background:white"] {
+  color:#D7263D !important;
+  font-weight:800 !important;
+}
 </style>
 </head>
 <body class="contact-page">
@@ -37,7 +49,7 @@
 <li><a href="blog.html">Blog</a></li>
 <li><a aria-current="page" href="contact.html">Contact</a></li>
 <li class="definitions-menu-item"><a class="definitions-link" href="https://minoseo.onrender.com/definitions-seo.html">DÉFINITIONS SEO/GEO</a></li>
-<li><a class="btn" href="mailto:minoseogeo@gmail.com?subject=Demande%20de%20contact%20MinoSeo">Parler de votre besoin</a></li>
+<li><a class="btn" href="mailto:minoseogeo@gmail.com?subject=Demande%20de%20contact%20MinoSeo"><strong>Parler de votre besoin</strong></a></li>
 </ul>
 </div>
 </header>
@@ -52,7 +64,7 @@
 <div aria-label="Services MinoSeo" class="contact-services">
 <span>SEO &amp; GEO</span><span>Netlinking</span><span>Community management</span><span>Saisie de données</span><span>BPO</span>
 </div>
-<div class="cta-row"><a class="btn" href="contact.html">Décrire mon besoin</a><a class="btn ghost" href="services-seogeo.html">Découvrir nos services</a></div>
+<div class="cta-row"><a class="btn" href="contact.html"><strong>Décrire mon besoin</strong></a><a class="btn ghost" href="services-seogeo.html"><strong>Découvrir nos services</strong></a></div>
 </div>
 </div>
 </section>
@@ -75,7 +87,7 @@
 <p class="email-label">Notre adresse e-mail</p>
 <a class="email-address" href="mailto:minoseogeo@gmail.com?subject=Demande%20de%20contact%20MinoSeo">minoseogeo@gmail.com</a>
 <p class="email-copy">Décrivez votre situation, votre objectif ou les tâches qui vous prennent du temps. Indiquez, si vous le souhaitez, le service qui vous intéresse : <strong><a href="offre-seo-geo.html">SEO</a></strong> &amp; <strong><a href="offre-seo-geo.html">GEO</a></strong>, netlinking, <strong><a href="offre-community-management.html">community management</a></strong>, <strong><a href="offre-saisie-de-donnees.html">saisie de données</a></strong> ou <strong><a href="offre-bpo.html">BPO</a></strong>.</p>
-<a class="btn" href="mailto:minoseogeo@gmail.com">Envoyer un e-mail à MinoSeo <span aria-hidden="true">→</span></a>
+<a class="btn" href="mailto:minoseogeo@gmail.com"><strong>Envoyer un e-mail à MinoSeo <span aria-hidden="true">→</span></strong></a>
 </div>
 </div>
 </div>
@@ -102,7 +114,7 @@
 <div class="eyebrow">MinoSeo</div>
 <h2>Vous savez ce qui vous freine. Parlons de ce qui peut vous faire avancer.</h2>
 <p>Un premier échange suffit pour mettre votre besoin à plat et envisager une solution réaliste, claire et proportionnée.</p>
-<a class="btn" href="mailto:minoseogeo@gmail.com">Envoyer un e-mail à MinoSeo</a>
+<a class="btn" href="mailto:minoseogeo@gmail.com"><strong>Envoyer un e-mail à MinoSeo</strong></a>
 </div>
 </div>
 </section>
