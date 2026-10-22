@@ -101,7 +101,7 @@ footer.site{background:var(--ink);color:#E9D9DB;padding:56px 0 28px}
 .foot h4{color:#fff;font-size:1rem}
 .foot ul{list-style:none;padding:0;margin:0;display:grid;gap:8px}
 .foot a:hover{color:#fff;text-decoration:underline}
-.foot img{height:36px;margin-bottom:14px;filter:brightness(0) invert(1)}
+.foot img{height:36px;margin-bottom:14px}
 .copy{border-top:1px solid #3B2A2E;margin-top:36px;padding-top:20px;font-size:.88rem}
 /* responsive */
 @media(max-width:960px){.grid4,.steps{grid-template-columns:repeat(2,1fr)}.price-grid,.quotes{grid-template-columns:1fr}.split,.foot{grid-template-columns:1fr}.split.reverse>:first-child{order:0}.hero{background-position:62% center}.hero::before{background:linear-gradient(90deg,#fff 0%,#fff 34%,rgba(255,255,255,.97) 42%,rgba(255,255,255,.78) 54%,rgba(255,255,255,.28) 68%,rgba(255,255,255,0) 78%)}}
