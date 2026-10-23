@@ -30,6 +30,51 @@
   font-weight:800 !important;
 }
 </style>
+
+<style id="header-audit-gratuit-white-text-all-states">
+/* CTA du menu supérieur uniquement : texte blanc dans tous les états */
+header a.btn.cta-animated[href="#contact"],
+header a.btn.cta-animated[href="contact.html"],
+header a.btn.cta-animated[href="./contact.html"],
+header a.btn.cta-animated[href="../contact.html"] { color:#fff !important; background-color:#D7263D !important; border-color:#D7263D !important; }
+header a.btn.cta-animated[href="#contact"] strong,
+header a.btn.cta-animated[href="contact.html"] strong,
+header a.btn.cta-animated[href="./contact.html"] strong,
+header a.btn.cta-animated[href="../contact.html"] strong,
+header a.btn.cta-animated[href="#contact"]:hover,
+header a.btn.cta-animated[href="contact.html"]:hover,
+header a.btn.cta-animated[href="./contact.html"]:hover,
+header a.btn.cta-animated[href="../contact.html"]:hover,
+header a.btn.cta-animated[href="#contact"]:focus,
+header a.btn.cta-animated[href="contact.html"]:focus,
+header a.btn.cta-animated[href="./contact.html"]:focus,
+header a.btn.cta-animated[href="../contact.html"]:focus,
+header a.btn.cta-animated[href="#contact"]:focus-visible,
+header a.btn.cta-animated[href="contact.html"]:focus-visible,
+header a.btn.cta-animated[href="./contact.html"]:focus-visible,
+header a.btn.cta-animated[href="../contact.html"]:focus-visible { color:#fff !important; }
+</style>
+
+<style id="index-header-audit-gratuit-white-all-states">
+/* Page d'accueil uniquement : CTA Audit gratuit, sans toucher aux autres CTA */
+header .menu a.btn.cta-animated[href="#contact"] {
+  color: #fff !important;
+  background-color: #D7263D !important;
+  border-color: #D7263D !important;
+}
+header .menu a.btn.cta-animated[href="#contact"] strong,
+header .menu a.btn.cta-animated[href="#contact"]:hover,
+header .menu a.btn.cta-animated[href="#contact"]:hover strong,
+header .menu a.btn.cta-animated[href="#contact"]:focus,
+header .menu a.btn.cta-animated[href="#contact"]:focus strong,
+header .menu a.btn.cta-animated[href="#contact"]:focus-visible,
+header .menu a.btn.cta-animated[href="#contact"]:focus-visible strong,
+header .menu a.btn.cta-animated[href="#contact"]:active,
+header .menu a.btn.cta-animated[href="#contact"]:active strong {
+  color: #fff !important;
+}
+</style>
+
 </head>
 <body>
 <header>
@@ -42,7 +87,7 @@
 <li><a href="blog.html">Blog</a></li>
 <li><a href="contact.html">Contact</a></li>
 <li class="definitions-menu-item"><a class="definitions-link" href="https://minoseo.onrender.com/definitions-seo.html">DÉFINITIONS SEO/GEO</a></li>
-<li><a class="btn cta-animated" href="#contact"><strong>Audit gratuit</strong></a></li>
+<li><a class="btn cta-animated audit-gratuit" href="#contact"><strong>Audit gratuit</strong></a></li>
 </ul>
 </div>
 </header>
