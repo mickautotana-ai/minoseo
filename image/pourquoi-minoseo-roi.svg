@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="t d">
+<title id="t">Illustration de pilotage du ROI MinoSeo</title><desc id="d">Graphique illustratif montrant une progression d'un indice de valeur de 100 à 178 sur six périodes.</desc>
+<rect width="900" height="520" rx="28" fill="#0b0b0e"/><text x="58" y="68" fill="#fff" font-family="Arial" font-size="27" font-weight="700">Pilotage de la valeur créée</text><text x="58" y="101" fill="#aaa" font-family="Arial" font-size="16">Scénario illustratif — indice base 100, à adapter à vos données</text>
+<line x1="85" y1="410" x2="840" y2="410" stroke="#555"/><line x1="85" y1="150" x2="85" y2="410" stroke="#555"/>
+<g fill="#999" font-family="Arial" font-size="14"><text x="55" y="414">100</text><text x="55" y="349">120</text><text x="55" y="284">140</text><text x="55" y="219">160</text><text x="55" y="154">180</text></g>
+<polyline points="100,410 240,374 380,335 520,280 660,222 800,157" fill="none" stroke="#d7263d" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<g fill="#d7263d"><circle cx="100" cy="410" r="9"/><circle cx="240" cy="374" r="9"/><circle cx="380" cy="335" r="9"/><circle cx="520" cy="280" r="9"/><circle cx="660" cy="222" r="9"/><circle cx="800" cy="157" r="9"/></g>
+<g fill="#ddd" font-family="Arial" font-size="14"><text x="88" y="447">P1</text><text x="228" y="447">P2</text><text x="368" y="447">P3</text><text x="508" y="447">P4</text><text x="648" y="447">P5</text><text x="788" y="447">P6</text></g>
+<rect x="600" y="70" width="240" height="58" rx="14" fill="#17171c" stroke="#34343b"/><text x="620" y="94" fill="#fff" font-family="Arial" font-size="14">Valeur mesurée</text><text x="620" y="116" fill="#d7263d" font-family="Arial" font-size="18" font-weight="700">trafic · leads · temps gagné</text>
+</svg>
